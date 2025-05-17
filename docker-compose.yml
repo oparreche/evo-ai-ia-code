@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   api:
-    image: evo-ai-api:latest
+    image: diwberg/evo-ai-api
     depends_on:
       - postgres
       - redis
